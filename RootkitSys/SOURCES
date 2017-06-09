@@ -1,0 +1,10 @@
+TARGETNAME=CCRootkit
+TARGETPATH=../
+TARGETTYPE=DRIVER
+SOURCES=CCRootkit.c \
+        HideRegKey.c\
+
+        
+        
+
+
