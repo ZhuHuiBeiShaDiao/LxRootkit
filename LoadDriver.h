@@ -12,10 +12,10 @@
 #define __LOAD_DRIVER_H__
 
 BOOL  SCMLoadDeviceDriver(PCHAR DrvFullPathName, //驱动程序完整路径名称
-                          PCHAR DriverName); //name of service  LPCTSTR DriverName
+	PCHAR DriverName); //name of service  LPCTSTR DriverName
 DWORD SCMUnloadDeviceDriver(PCHAR DriverName);//Name of service
 BOOL  LoadDeviceDriver(PCHAR DrvFullPathName, //注册表中驱动程序名称
-				      PCHAR szDrvName); //驱动程序路径名称
+	PCHAR szDrvName); //驱动程序路径名称
 BOOL  SystemLoadDeviceDriver();
 
 #endif  //__LOAD_DRIVER_H__
